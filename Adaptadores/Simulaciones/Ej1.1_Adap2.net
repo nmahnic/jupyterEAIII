@@ -1,0 +1,18 @@
+* G:\My Drive\21 UTN\01 - Aplicada 3\jupyterEAIII\Adaptadores\Ej1.1_Adap2.asc
+Cgp Vpri 0 {Cgp}
+R1 Vpri 0 200.5
+C1 Vpri 0 {C1}
+Lpri Vpri 0 {Lpri}
+Lsec Vsec 0 {Lsec}
+R2 Vsec 0 1000
+I1 Vpri 0 AC 1.9975e-05
+.ac dec 10000 190e6 210e6
+K1 Lpri Lsec 1
+.params C1=158.5596p
+.params Cgp=0.198447p
+.params Lpri=3.98882n
+.params Lsec=19.89422n
+* .params C1=158p
+* .params Cgp=0.2p
+.backanno
+.end
